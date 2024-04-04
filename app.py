@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Hell world, index"
+    return "Hello world, index"
 
 @app.route('/nick')
 def nick():
